@@ -1,0 +1,11 @@
+.promo__mask {
+  background: rgba(42, 44, 47, 0.8);
+  min-height: 400px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .promo__mask {
+    min-height: 300px;
+  }
+}

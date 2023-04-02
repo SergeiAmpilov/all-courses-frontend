@@ -1,5 +1,9 @@
 @import url(./h/h.css);
 @import url(./body/body.css);
+@import url(./promo/promo.css);
+@import url(./promo/__mask/promo__mask.css);
+@import url(./promo/__title/promo__title.css);
+@import url(./promo/__subtitle/promo__subtitle.css);
 @import url(./card/__group/card__group.css);
 @import url(./card/__image/card__image.css);
 @import url(./card/__group/_content/card__group_content.css);

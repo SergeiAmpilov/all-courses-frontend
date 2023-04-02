@@ -1,5 +1,6 @@
 .card__group {
   position: relative;
+  margin: 20px 0;
 }
 
 .card__group:hover::after {
@@ -20,4 +21,10 @@
   left: 0;
   z-index: 1;
   transition: background 1s linear;
+}
+
+@media screen and (max-width: 600px) {
+  .card__group {
+    margin: 10px 0;
+  }
 }
