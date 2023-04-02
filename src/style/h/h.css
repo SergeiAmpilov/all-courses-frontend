@@ -1,5 +1,3 @@
-
-
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 2.8rem;
@@ -10,4 +8,10 @@
   h1 {
     font-size: 2.2rem;
   }
+}
+
+
+/* fix some style of materialize css*/
+.row {
+  /* margin-bottom: 0; */
 }

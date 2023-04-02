@@ -3,12 +3,14 @@
 }
 
 .card__group:hover::after {
+  border-radius: 20px;
   background: rgba(42, 44, 47, 0.8);
 }
 
 
 .card__group::after {
   content: '';
+  border-radius: 20px;
   background: rgba(42, 44, 47, 0.4);
   display: block;
   position: absolute;
